@@ -1,0 +1,118 @@
+
+
+body
+{
+	font-family: 'segoe ui light';
+}
+
+/*
+#options-container
+{
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    z-index: 99999;
+}
+#options-box
+{
+    background-color: #ccc;
+    float: left;
+    padding: 10px;
+    border: solid 4px teal;
+    position: relative;
+}
+#options-box img
+{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+#options-box ul li
+{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    display: inline-block;
+    cursor: pointer;
+}
+#iconToggle
+{
+    background-color: teal;
+    float: left;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.parent
+{
+	height: 400px;
+	background-color: #09c;
+
+}
+.parent .item 
+{
+	height: 100px;
+	background-color: tomato;
+	width: 22%;
+}
+
+*/
+
+#container-box{
+    
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    z-index: 99999;
+}
+
+#colors-box{
+        
+    background-color: #ccc;
+    padding: 10px;
+    float: left;
+    border: 4px solid teal;
+    cursor: pointer;
+    position: relative;
+
+}
+#colors-box ul li{
+    width: 30px;
+    height: 30px;
+    background-color: chartreuse;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#iconToggle{
+    
+    background-color: teal;
+    float: left;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#colors-box img{
+
+    width: 35px;
+    cursor: pointer;
+}
+
+#home{
+    height: 600px;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+}
+
+#btnUp{
+    
+    position: fixed;
+    bottom:30px;
+    right: 30px;
+    z-index: 99999;
+    cursor: pointer;
+    
+}
